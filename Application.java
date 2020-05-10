@@ -1,6 +1,7 @@
 package cn.maxzeng.algorithm;
 
 import cn.maxzeng.algorithm.linked.*;
+import cn.maxzeng.algorithm.string.RomanToInt;
 
 public class Application {
 
@@ -25,8 +26,15 @@ public class Application {
         listNodeTwo.next = listNode3;
         listNode3.next = listNode4;
         listNode4.next = listNode5;
-        ReverseList reverseList = new ReverseList();
-        System.out.println(reverseList.reverseList2(listNodeOne));
+//        ReverseList reverseList = new ReverseList();
+//        System.out.println(reverseList.reverseList2(listNodeOne));
+
+//        AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
+//        System.out.println(addTwoNumbers.addTwoNumbers(listNode3, listNode4));
+
+        RomanToInt romanToInt = new RomanToInt();
+        romanToInt.romanToInt("MCMXCIV");
+
     }
 
 }
