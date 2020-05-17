@@ -19,9 +19,7 @@ public class CopyRandomList {
     public Node copyRandomList(Node head) {
         if(head == null) return null;
 
-        if(this.visitedHash.containsKey(head))                                     
         Node node = new Node(head.val, null, null);
-
         this.visitedHash.put(head, node);
 
         node.next = this.copyRandomList(head.next);
@@ -39,6 +37,7 @@ public class CopyRandomList {
         while (prev == null) {
 
         }
+        return node;
     }
 
 }
