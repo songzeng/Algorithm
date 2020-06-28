@@ -9,7 +9,7 @@ package cn.maxzeng.algorithm.DynamicProgramming;
 public class NumTrees {
 
     /**
-     * 卡特兰数
+     * 卡特兰数 - 动态规划
      * 假设n个节点存在二叉排序树的个数是G(n)，令f(i)为以i为根的二叉搜索树的个数，则
      * G(n)=f(1)+f(2)+f(3)+f(4)+...+f(n)
      * 当i为根节点时，其左子树节点个数为i-1个，右子树节点为n-i，则
