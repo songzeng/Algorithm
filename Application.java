@@ -1,7 +1,7 @@
 package cn.maxzeng.algorithm;
 
-import cn.maxzeng.algorithm.linked.*;
-import cn.maxzeng.algorithm.string.RomanToInt;
+import cn.maxzeng.algorithm.Linked.*;
+import cn.maxzeng.algorithm.String.RomanToInt;
 
 public class Application {
 
